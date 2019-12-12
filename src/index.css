@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.login-box{
+  padding:30px;
+  padding-top: 40px;
+  border:1px solid darkgrey;
+}
+
+.center{
+  text-align:center; 
+  font-weight: bold;
+}
+.full{
+  width:100%;
+}
+.dashboardNav{
+  z-index: 99999 !important;
+  width: 25;
+}
+.userName{
+  font-weight: bold;
+  font-size: 25px;
+}
+.profileImage{
+  padding-left: 50px;
+  size:30px;
+}
+
+
+#showMessage{
+  display: none;
+}
+
+.card_outer{
+  /* border:1px solid grey; */
+ 
+  box-shadow: 2px 2px 5px grey;
+}
+
+.top_100
+{
+  margin-top: 100px;
+}
+.top_10
+{
+  margin-top: 30px;
+}
+.icons_size{
+  padding:30px;
+
+  font-size: 60px;
+}
+
+.confirmation{
+  color:green;
+}
+
+
+
+.sidenav {
+  height: 100%;
+  width: 17%;
+  position: fixed;
+  z-index: 1;
+  /* top: 55px; */
+  left: 0;
+  text-align: center;
+  background-color: #0256a1;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 5px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+.right{
+  float:right;
+}
+.removeRepo{
+  padding:5px 12px 5px 12px;
+font-size:20px;
+  border-radius: 40px;
+  background-color: lightgrey;
+}
+.removeRepo:hover
+{
+  color:white;
+  cursor:pointer;
+  background-color:rgb(221,103,108);
+
+}
