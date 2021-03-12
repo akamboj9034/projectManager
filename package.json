@@ -11,7 +11,7 @@
     "cors": "^2.8.5",
     "express-session": "^1.17.0",
     "html2canvas": "^1.0.0-rc.5",
-    "jspdf": "^1.5.3",
+    "jspdf": "^2.3.1",
     "list-react-files": "^0.2.0",
     "materialize-css": "^1.0.0-rc.2",
     "mongoose": "^5.7.7",
